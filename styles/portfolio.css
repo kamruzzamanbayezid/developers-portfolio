@@ -23,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 60px 0 70px;
 }
 
 
@@ -54,4 +55,20 @@ nav ul li a {
     font-family: Open Sans;
     font-weight: 400;
     word-wrap: break-word;
+}
+
+/* Header Area */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner-content{
+    padding: 0 25px 0 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header .banner-img {
+    width: 400px;
+    height: 400px;
 }
