@@ -2,56 +2,46 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-.primary-color {
+.common-color {
     color: #FD6E0A;
 }
 
-.btn-primary {
-    background: #FD6E0A;
+.common-button {
+    background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
+    padding: 18px 35px;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    word-wrap: break-word;
-    padding: 18px 35px;
-
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
-
-.nav-title {
+nav .nav-title {
     color: #181818;
     font-size: 45px;
-    font-family: Open Sans;
     font-weight: 700;
-    word-wrap: break-word;
 }
 
-nav ul {
+nav > ul {
     display: flex;
     align-items: center;
+
 }
 
-nav li {
+nav ul li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 51px;
 }
 
-nav ul li a {
+nav a {
     text-decoration: none;
-}
-
-nav ul li a {
     color: #474747;
     font-size: 20px;
-    font-family: Open Sans;
     font-weight: 400;
-    word-wrap: break-word;
 }
