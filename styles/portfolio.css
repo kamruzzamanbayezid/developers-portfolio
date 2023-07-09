@@ -30,6 +30,7 @@ main {
 
 /* Common CSS end */
 
+/* HEADER SECTION START */
 header {
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png");
@@ -71,6 +72,7 @@ nav a {
     padding: 18px 51px;
 }
 
+
 .banner-content {
     padding-left: 180px;
     display: flex;
@@ -111,8 +113,12 @@ nav a {
     margin-bottom: 30px;
 }
 
-/* About Part */
+/* HEADER SECTION END */
 
+
+/* MAIN SECTION SYART */
+
+/* ABOUT US SECTION START */
 .about {
     padding: 130px 156px;
     background-color: #FFF8F3;
@@ -138,6 +144,7 @@ nav a {
 .about-information {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .about-info {
@@ -154,4 +161,54 @@ nav a {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* ABOUT US SECTION END */
+
+/* WHAT I DO SECTION START */
+#do-id {
+    padding: 30px 130px 50px;
+}
+
+.what-i-do {
+    margin-bottom: 160px;
+}
+
+/* SKILL SECTION */
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.skill-container img , .skill-title{
+    padding: 0 30px;
+}
+
+
+.skill-container .skill-section img {
+    margin-bottom: 30px;
+}
+
+.skill-section{
+    background: white;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-container .skill-title {
+    margin-bottom: 20px;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-container .skill-para {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 33px 30px;
+}
+
+.skill-container .skill-section img{
+    margin-top: 30px;
 }
