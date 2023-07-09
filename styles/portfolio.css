@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Common CSS */
 
 .primary-color {
     color: #FD6E0A;
@@ -11,28 +17,37 @@ body {
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
+    padding: 18px 35px;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    word-wrap: break-word;
-    padding: 18px 35px;
+}
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Common CSS end */
+
+header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 60px 0 70px;
+    padding: 51px 180px 49px 176px;
 }
-
 
 .nav-title {
     color: #181818;
     font-size: 45px;
-    font-family: Open Sans;
     font-weight: 700;
-    word-wrap: break-word;
 }
 
 nav ul {
@@ -42,33 +57,101 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    padding-right: 51px;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
 
-nav ul li a {
+nav a {
     text-decoration: none;
 }
 
-nav ul li a {
+.butt {
+    padding: 18px 51px;
+}
+
+.banner-content {
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner {
+    /* max-width: 500px; */
+}
+
+.banner-content .banner-pic {
+    width: 500px;
+    height: 600px;
+    padding-right: 85px;
+}
+
+.banner-h3 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-para {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* About Part */
+
+.about {
+    padding: 130px 156px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
+
+}
+
+.about-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-para {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.about-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.about-information .about-info h4 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-information .about-info p {
     color: #474747;
     font-size: 20px;
-    font-family: Open Sans;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-/* Header Area */
-.header{
-    background-color: #FFF8F3;
-}
-
-.banner-content{
-    padding: 0 25px 0 80px;
-    display: flex;
-    align-items: center;
-}
-
-.header .banner-img {
-    width: 400px;
-    height: 400px;
+    font-weight: 700;
 }
