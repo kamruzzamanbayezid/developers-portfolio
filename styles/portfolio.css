@@ -70,6 +70,7 @@ nav a {
 
 .butt {
     padding: 18px 51px;
+    margin-right: 30px;
 }
 
 
@@ -180,7 +181,9 @@ nav a {
     justify-content: space-around;
     gap: 24px;
 }
-.skill-container img , .skill-title{
+
+.skill-container img,
+.skill-title {
     padding: 0 30px;
 }
 
@@ -189,7 +192,7 @@ nav a {
     margin-bottom: 30px;
 }
 
-.skill-section{
+.skill-section {
     background: white;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
@@ -209,6 +212,53 @@ nav a {
     padding: 0 33px 30px;
 }
 
-.skill-container .skill-section img{
+.skill-container .skill-section img {
+    margin-top: 30px;
+}
+
+/* WHAT I DO SECTION END */
+
+/* RESUME SECTION START */
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+    margin-bottom: 50px;
+    gap: 71px;
+}
+
+.resume-coloum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-coloum-sub {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-coloum-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-coloum-para {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.resume-button{
+    display: flex;
+    align-items: center;
+}
+.resume-coloum-sub{
     margin-top: 30px;
 }
